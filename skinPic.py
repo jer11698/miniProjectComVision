@@ -10,8 +10,8 @@ ap.add_argument("-v", "--video",
 args = vars(ap.parse_args())
 # define the upper and lower boundaries of the HSV pixel
 # intensities to be considered 'skin'
-lower = np.array([0, 48, 80], dtype="uint8")
-upper = np.array([20, 255, 255], dtype="uint8")
+lower = np.array([0, 8, 15], dtype="uint8")
+upper = np.array([243, 249, 254], dtype="uint8")
 # if a video path was not supplied, grab the reference
 # to the gray
 if not args.get("video", False):
