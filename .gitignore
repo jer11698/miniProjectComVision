@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/virtualenv
-# Edit at https://www.toptal.com/developers/gitignore?templates=virtualenv
+# Created by https://www.toptal.com/developers/gitignore/api/virtualenv,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=virtualenv,visualstudiocode
 
 ### VirtualEnv ###
 # Virtualenv
@@ -16,4 +16,15 @@ pyvenv.cfg
 .venv
 pip-selfcheck.json
 
-# End of https://www.toptal.com/developers/gitignore/api/virtualenv
+### VisualStudioCode ###
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/virtualenv,visualstudiocode
