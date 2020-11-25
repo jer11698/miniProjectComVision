@@ -10,7 +10,7 @@ eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 # https://github.com/peterbraden/node-opencv/blob/master/data/haarcascade_mcs_mouth.xml
 mouth_cascade = cv2.CascadeClassifier('haarcascade_mcs_mouth.xml')
 
-img = cv2.imread('image/w644.jpg')
+img = cv2.imread('image/1.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 faces = face_cascade.detectMultiScale(gray, 1.3, 5)
 print(faces)
